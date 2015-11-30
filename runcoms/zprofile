@@ -47,6 +47,7 @@ path=(
   /Users/Stephan/tools/spark/bin
   /Users/Stephan/.jenv/bin
   /usr/local/{bin,sbin}
+  /usr/local/go/bin
   $path
 )
 
@@ -77,4 +78,5 @@ fi
 TMPPREFIX="${TMPDIR%/}/zsh"
 
 eval "$(jenv init -)"
+export GOPATH=$HOME/mygo
 

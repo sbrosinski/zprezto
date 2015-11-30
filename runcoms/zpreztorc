@@ -33,7 +33,10 @@ zstyle ':prezto:load' pmodule \
   'utility' \
   'completion' \
   'prompt' \
-  'git'
+  'git' \
+  'tmux' 
+
+
 #
 # Editor
 #
